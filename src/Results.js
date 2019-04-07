@@ -8,13 +8,9 @@ const petfinder = pf({
 });
 
 class Results extends React.Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      pets: []
-    };
-  }
+  state = {
+    pets: []
+  };
 
   componentDidMount() {
     petfinder.pet
