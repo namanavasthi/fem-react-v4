@@ -22,3 +22,8 @@ whereas if we have an arrow function, it will not create a new scope where it is
 contecxt solves data tunneling or props drilling
 you don't need to keep pushing props that you don't need down many layers until it is used
 rather create a context and use it in any child component
+
+# Portals
+
+render in one component, but physically be in DOM at some other component  
+thats when we use portals
