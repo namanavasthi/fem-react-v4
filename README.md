@@ -16,3 +16,9 @@ functions have a new scope whenever it is called
 scope can change depending on where you call this function
 
 whereas if we have an arrow function, it will not create a new scope where it is
+
+# Context
+
+contecxt solves data tunneling or props drilling
+you don't need to keep pushing props that you don't need down many layers until it is used
+rather create a context and use it in any child component
